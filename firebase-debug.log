@@ -1,0 +1,24 @@
+[debug] [2024-12-04T13:14:50.091Z] ----------------------------------------------------------------------
+[debug] [2024-12-04T13:14:50.095Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:create android darabeautysalon (android) --package-name='com.dara.darabeautysalon' --json --project=darabeautysalon2024
+[debug] [2024-12-04T13:14:50.095Z] CLI Version:   13.27.0
+[debug] [2024-12-04T13:14:50.095Z] Platform:      win32
+[debug] [2024-12-04T13:14:50.096Z] Node Version:  v22.11.0
+[debug] [2024-12-04T13:14:50.096Z] Time:          Wed Dec 04 2024 16:14:50 GMT+0300 (GMT+03:00)
+[debug] [2024-12-04T13:14:50.096Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-04T13:14:50.103Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-04T13:14:50.103Z] > authorizing via signed-in user (suraflutter@gmail.com)
+[info] Create your ANDROID app in project darabeautysalon2024:
+[debug] [2024-12-04T13:14:50.107Z] Checked if tokens are valid: true, expires at: 1733319748675
+[debug] [2024-12-04T13:14:50.107Z] Checked if tokens are valid: true, expires at: 1733319748675
+[debug] [2024-12-04T13:14:50.108Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/darabeautysalon2024/androidApps [none]
+[debug] [2024-12-04T13:14:50.109Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/darabeautysalon2024/androidApps {"displayName":"darabeautysalon (android)","packageName":"'com.dara.darabeautysalon'"}
+[debug] [2024-12-04T13:14:50.820Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/darabeautysalon2024/androidApps 400
+[debug] [2024-12-04T13:14:50.820Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/darabeautysalon2024/androidApps {"error":{"code":400,"message":"Request contains an invalid argument.","status":"INVALID_ARGUMENT"}}
+[debug] [2024-12-04T13:14:50.821Z] Request to https://firebase.googleapis.com/v1beta1/projects/darabeautysalon2024/androidApps had HTTP Error: 400, Request contains an invalid argument.
+[debug] [2024-12-04T13:14:51.108Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/darabeautysalon2024/androidApps had HTTP Error: 400, Request contains an invalid argument.
+    at responseToError (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project darabeautysalon2024. See firebase-debug.log for more info.
