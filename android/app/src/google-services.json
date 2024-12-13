@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "679913527577",
+    "project_id": "darabeautysalon2024",
+    "storage_bucket": "darabeautysalon2024.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679913527577:android:058d439b30ca4efe1c4d88",
+        "android_client_info": {
+          "package_name": "com.dara.darabeautysalon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlg38m-hus_oA32MDOg77WMvf9vj5UYJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
