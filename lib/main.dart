@@ -1,6 +1,5 @@
 import 'package:darabeautysalon/screens/dara_dashboard_screen.dart';
 import 'package:darabeautysalon/screens/dara_register_screen.dart';
-import 'package:darabeautysalon/screens/dara_walk_through_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:darabeautysalon/screens/dara_login_screen.dart';
@@ -9,11 +8,6 @@ import 'package:darabeautysalon/store/app_store.dart';
 import 'package:darabeautysalon/utils/app_theme.dart';
 import 'package:darabeautysalon/utils/dara_constants.dart';
 import 'package:darabeautysalon/utils/dara_data_generator.dart';
-import 'package:darabeautysalon/utils/tree.dart';
-
-import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 AppStore appStore = AppStore();
